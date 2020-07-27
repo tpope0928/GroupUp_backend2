@@ -6,6 +6,7 @@ class CreateGames < ActiveRecord::Migration[6.0]
       t.integer :level
       t.boolean :competitive
       t.string :player_username
+      t.integer :player_id
 
       t.timestamps
     end
