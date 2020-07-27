@@ -4,6 +4,7 @@ class CreatePlayers < ActiveRecord::Migration[6.0]
       t.string :username
       t.string :city
       t.string :state
+      t.integer :game_id
 
       t.timestamps
     end

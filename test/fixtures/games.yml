@@ -6,7 +6,6 @@ one:
   level: 1
   competitive: false
   player_username: MyString
-  player_id: 1
 
 two:
   title: MyString
@@ -14,4 +13,3 @@ two:
   level: 1
   competitive: false
   player_username: MyString
-  player_id: 1

@@ -13,4 +13,4 @@ dota = Game.create(title: 'Dota2', genre: 'MOBA', level: '3', competitive: 'fals
 val = Game.create(title: 'Valorant', genre: 'FPS', level: '3', competitive: 'true', player_username: 'medesely')
 cod = Game.create(title: 'Call of Duty: Warzone', genre: 'BR', level: '4', competitive: 'false', player_username: 'backwardhatkid')
 
-Player.create(username: 'drewP', city: 'Gaithersburg', state: 'Maryland')
+Player.create(username: 'drewP', city: 'Gaithersburg', state: 'Maryland', game_id: val.id)
