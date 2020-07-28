@@ -2,7 +2,8 @@ class Api::V1::GamesController < ApplicationController
 
   def index
     games = Game.all
-    render json: games
+    # render json: @syllabuses
+    render json: GameSerializer.new(games)
   end
 
   def create
@@ -17,7 +18,7 @@ class Api::V1::GamesController < ApplicationController
   private
 
   def game_params
-    params.require(:game).permit(:title, :genre, :level, :competitive, :player_username, :player_id)
+    params.require(:game).permit(:title, :genre, :level, :competitive, :player_username)
   end
 
 end
