@@ -14,3 +14,5 @@ val = Game.create(title: 'Valorant', genre: 'FPS', level: '3', competitive: 'tru
 cod = Game.create(title: 'Call of Duty: Warzone', genre: 'BR', level: '4', competitive: 'false', player_username: 'backwardhatkid')
 
 Player.create(username: 'drewP', city: 'Gaithersburg', state: 'Maryland', game_id: val.id)
+Player.create(username: 'alecT', city: 'Houston', state: 'Texas', game_id: dota.id)
+Player.create(username: 'robbyM', city: 'Nashville', state: 'Tennessee', game_id: cod.id)
